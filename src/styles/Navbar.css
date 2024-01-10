@@ -1,0 +1,77 @@
+.navbar {
+  height: 130px;
+  border-radius: 50px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-left: 200px;
+  box-sizing: border-box;
+}
+
+.logo_container {
+  /* background-color: red; */
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  border-radius: 50px 0 0 50px;
+
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  border: 4px solid #cb6ce6;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.navbar_book_btn {
+  transition: all 0.4s;
+  color: white;
+  width: 140px;
+  height: 60px;
+  background-color: #004aad;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+  font-weight: 800;
+  margin-left: 80px;
+  padding: 4px 16px;
+
+  &:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    cursor: pointer;
+    color: #004aad;
+    background-color: white;
+    /* border: .1px solid black; */
+  }
+}
+
+.navbar_mid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+.option {
+  transition: all 0.3s;
+  padding: 8px 20px;
+  font-size: 1.5em;
+  border-radius: 10px;
+  cursor: pointer;
+
+  &:hover {
+    /* background-color: #004aad; */
+    color: #004aad;
+    border-bottom: 4px solid #cb6ce6;
+  }
+}

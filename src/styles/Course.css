@@ -1,0 +1,11 @@
+.course_carousal {
+  height: 500px;
+  width: 100%;
+  background-color: red;
+}
+
+.slide_0 {
+  height: 150px;
+  width: 200vh;
+  background-color: aqua;
+}
